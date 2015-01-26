@@ -66,15 +66,9 @@ html {
     
     .banner-img {
        padding-top: 56.25%;
-       background-image: url(../images/billboard.jpg);
+       background-image: url(../images/banner.svg);
        background-size: cover;
-    }
-    
-    .banner-img2 {
-       padding-top: 56.25%;
-       background-image: url(../images/billboard-prices.jpg);
-       background-size: cover;
-    }      
+    }    
 }
 
 @media only screen and (min-width: 38em) {
