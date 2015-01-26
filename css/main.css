@@ -13,6 +13,85 @@ html {
     text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+        
+    .masthead {
+        text-align: left;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .nav {
+        text-align: center;
+    }
+
+    .nav li {
+        display: inline-block;
+    }
+    
+    .masthead {
+        text-align: center;
+    }
+    
+    .banner {
+        text-align: center;
+    }
+    
+    .banner-img {
+       padding-top: 56.25%;
+       background-image: url(../images/billboard.jpg);
+       background-size: cover;
+    }
+    
+    .banner-img2 {
+       padding-top: 56.25%;
+       background-image: url(../images/billboard-prices.jpg);
+       background-size: cover;
+    }      
+}
+
+@media only screen and (min-width: 38em) {
+    
+  .title,
+  .nav {
+    text-align: left;
+   }
+    
+    .masthead {
+        text-align: left;
+    }
+    
+    .nav-footer {
+        text-align: right;
+}
+    .logo {
+        margin: .25rem 1%;
+}
 }
