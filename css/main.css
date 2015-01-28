@@ -124,7 +124,44 @@ body {
 
 @media only screen and (min-width: 25em) {
     
+    .cat-face {
+        text-align: center;
+        display: block;
+        width: 5px;
+    }
+    
+    .arrow-1 {
+        display: block;
+        margin: .25rem 1%;
+        padding: .25rem 1%;
+    }
+    
+     .arrow-2 {
+        display: block;
+        margin: .25rem 1%;
+        padding: .25rem 1%;
+    }
+}
 
 
 @media only screen and (min-width: 38em) {
+    
+        .cat-face {
+        text-align: center;
+        display: block;
+        width: 5px;
+    }
+    
+    .arrow-1 {
+        display: block;
+        margin: .25rem 1%;
+        padding: .25rem 1%;
+    }
+    
+     .arrow-2 {
+        display: block;
+        margin: .25rem 1%;
+        padding: .25rem 1%;
+    }
+}
     
