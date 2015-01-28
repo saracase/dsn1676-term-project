@@ -46,6 +46,72 @@ html {
   box-sizing: inherit;
 }
 
+body {
+    background-color: #3a3a3a;
+}
+
+.cat-face {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 15em;
+    -webkit-animation: cat-face-rotate 10s ease-in-out infinite alternate;
+    animation: cat-face-rotate 10s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes cat-face-rotate {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }   
+}
+
+@keyframes cat-face-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }   
+}
+
+.arrow-1 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 10em;
+   -webkit-animation: arrow-1-rotate 3s ease-in-out infinite alternate;
+    animation: arrow-1-rotate 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes arrow-1-rotate {
+    0% { -webkit-transform: translateY(0); }
+    50% { -webkit-transform: translateX(-100px); }
+    50% { -webkit-transform: translateY(-60px); }   
+}
+
+@keyframes arrow-1-rotate {
+    0% { -webkit-transform: translateY(0); }
+    50% { -webkit-transform: translateX(-100px); }
+    50% { -webkit-transform: translateY(-60px); }   
+}
+
+.arrow-2 {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 10em;
+    -webkit-animation: arrow-2-rotate 3s ease-in-out infinite alternate;
+    animation: arrow-2-rotate 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes arrow-2-rotate {
+    0% { -webkit-transform: translateY(0); }
+    50% { -webkit-transform: translateX(-100px); }
+    50% { -webkit-transform: translateY(-60px); }  
+}
+
+@keyframes arrow-2-rotate {
+    0% { -webkit-transform: translateY(0); }
+    50% { -webkit-transform: translateX(-100px); }
+    50% { -webkit-transform: translateY(-60px); }  
+}
+
+
 @media only screen and (min-width: 25em) {
     
     .nav {
