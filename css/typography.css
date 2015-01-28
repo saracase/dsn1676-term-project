@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Lora", serif;
+  font: normal 100%/1.5 'Roboto', sans-serif;
   color: #000;
 }
 
@@ -21,7 +21,7 @@ fieldset, pre, table {
 }
 
 h1, .exa {
-  font-size: 1.8020rem;
+  font-size: 4rem;
   line-height: 1.6648;
 }
 
@@ -136,31 +136,4 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
-}
-
-h1 {
-    font-family: "Raleway", sans-serif;
-    color: #e94647;
-}
-
-h2 {
-    font-family: "Raleway", sans-serif;
-    color: #414242;
-}
-
-h3 {
-    font-family: "Raleway", sans-serif;
-    color: #e94647;
-}
-
-.brand-family {
-    font-family: "Raleway", sans-serif;
-}
-
-.form-spacing {
-     font-family: "Raleway", sans-serif;
-}
-
-.masthead {
-     font-family: "Raleway", sans-serif;
 }

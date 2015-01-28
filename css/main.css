@@ -111,47 +111,16 @@ body {
     50% { -webkit-transform: translateY(-60px); }  
 }
 
+.title {
+    color: white;
+    text-align: center;
+    
+}
+
 
 @media only screen and (min-width: 25em) {
     
-    .nav {
-        text-align: center;
-    }
 
-    .nav li {
-        display: inline-block;
-    }
-    
-    .masthead {
-        text-align: center;
-    }
-    
-    .banner {
-        text-align: center;
-    }
-    
-    .banner-img {
-       padding-top: 56.25%;
-       background-image: url(../images/banner.svg);
-       background-size: cover;
-    }    
-}
 
 @media only screen and (min-width: 38em) {
     
-  .title,
-  .nav {
-    text-align: left;
-   }
-    
-    .masthead {
-        text-align: left;
-    }
-    
-    .nav-footer {
-        text-align: right;
-}
-    .logo {
-        margin: .25rem 1%;
-}
-}
