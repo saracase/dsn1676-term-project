@@ -112,11 +112,15 @@ body {
 }
 
 .title {
-    color: white;
     text-align: center;
-    
+    color: #fff;
+    margin: 1em;
+    transition: all 1000ms linear;
 }
 
+.title:hover {
+    background-color: #fff;
+    color: #3a3a3a;
 
 @media only screen and (min-width: 25em) {
     
