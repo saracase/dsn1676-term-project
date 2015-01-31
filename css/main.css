@@ -50,25 +50,6 @@ body {
     background-color: #3a3a3a;
 }
 
-.cat-face {
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    width: 15em;
-    -webkit-animation: cat-face-rotate 10s ease-in-out infinite alternate;
-    animation: cat-face-rotate 10s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes cat-face-rotate {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }   
-}
-
-@keyframes cat-face-rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }   
-}
-
 .arrow-1 {
     position: absolute;
     top: 45%;
@@ -88,6 +69,25 @@ body {
     0% { -webkit-transform: translateY(0); }
     50% { -webkit-transform: translateX(-100px); }
     50% { -webkit-transform: translateY(-60px); }   
+}
+
+.cat-face {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 50em;
+    -webkit-animation: cat-face-rotate 10s ease-in-out infinite alternate;
+    animation: cat-face-rotate 10s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes cat-face-rotate {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }   
+}
+
+@keyframes cat-face-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }   
 }
 
 .arrow-2 {
@@ -121,47 +121,46 @@ body {
 .title:hover {
     background-color: #fff;
     color: #3a3a3a;
+}
+
+.gutter {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
 @media only screen and (min-width: 25em) {
     
-    .cat-face {
-        text-align: center;
-        display: block;
-        width: 5px;
-    }
-    
     .arrow-1 {
         display: block;
-        margin: .25rem 1%;
-        padding: .25rem 1%;
+        position: relative;
+        width: 10em;
+        top: 40%;
+        left: 40%;
+    }
+    
+    .cat-face {
+        display: block;
+        position: relative;
+        width: 10em;
+        left: 0%;
     }
     
      .arrow-2 {
         display: block;
-        margin: .25rem 1%;
-        padding: .25rem 1%;
+        position: relative;
+        width: 10em;
+        top: 40%;
+        left: 40%;
     }
 }
 
 
 @media only screen and (min-width: 38em) {
     
-        .cat-face {
+    .cat-face {
         text-align: center;
         display: block;
-        width: 5px;
-    }
-    
-    .arrow-1 {
-        display: block;
-        margin: .25rem 1%;
-        padding: .25rem 1%;
-    }
-    
-     .arrow-2 {
-        display: block;
-        margin: .25rem 1%;
-        padding: .25rem 1%;
+        width: 10em;
     }
 }
     
