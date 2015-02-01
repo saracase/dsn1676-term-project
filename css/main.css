@@ -15,16 +15,27 @@ html {
 
 @media only screen and (min-width: 60em) {
     
-    html {
-        font-size: 110%;
-    }
-        
-    .masthead {
-        text-align: left;
+        .arrow-1 {
+        display: block;
+        position: relative;
+        width: 10em;
+        top: 40%;
+        left: 40%;
     }
     
-    .nav-footer {
-        text-align: right;
+    .cat-face {
+        display: block;
+        position: relative;
+        width: 10em;
+        left: 0%;
+    }
+    
+     .arrow-2 {
+        display: block;
+        position: relative;
+        width: 10em;
+        top: 40%;
+        left: 40%;
     }
 }
 
@@ -157,10 +168,26 @@ body {
 
 @media only screen and (min-width: 38em) {
     
-    .cat-face {
-        text-align: center;
+    .arrow-1 {
         display: block;
+        position: relative;
         width: 10em;
+        top: 40%;
+        left: 40%;
     }
-}
     
+    .cat-face {
+        display: block;
+        position: relative;
+        width: 10em;
+        left: 0%;
+    }
+    
+     .arrow-2 {
+        display: block;
+        position: relative;
+        width: 10em;
+        top: 40%;
+        left: 40%;
+    }
+} 
