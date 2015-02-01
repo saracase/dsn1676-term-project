@@ -15,7 +15,7 @@ html {
 
 @media only screen and (min-width: 60em) {
     
-        .arrow-1 {
+    .arrow-1 {
         display: block;
         position: relative;
         width: 10em;
@@ -153,7 +153,7 @@ body {
         display: block;
         position: relative;
         width: 10em;
-        left: 0%;
+        left: -85%;
     }
     
      .arrow-2 {
@@ -180,7 +180,7 @@ body {
         display: block;
         position: relative;
         width: 10em;
-        left: 0%;
+        left: 40%;
     }
     
      .arrow-2 {
