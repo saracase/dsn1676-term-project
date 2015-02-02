@@ -46,13 +46,6 @@ html {
     }
 }
 
-@media only screen and (min-width: 120em) {
-    
-    html {
-        font-size: 130%;
-    }
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -65,7 +58,7 @@ body {
     position: absolute;
     top: 45%;
     left: 10%;
-    width: 10em;
+    width: 5em;
    -webkit-animation: arrow-1-rotate 3s ease-in-out infinite alternate;
     animation: arrow-1-rotate 3s ease-in-out infinite alternate;
 }
@@ -86,7 +79,7 @@ body {
     position: absolute;
     top: 40%;
     left: 40%;
-    width: 50em;
+    width: 30em;
     -webkit-animation: cat-face-rotate 10s ease-in-out infinite alternate;
     animation: cat-face-rotate 10s ease-in-out infinite alternate;
 }
@@ -153,7 +146,8 @@ body {
         display: block;
         position: relative;
         width: 10em;
-        left: -85%;
+        left: -55%;
+        margin: 0;
     }
     
      .arrow-2 {
@@ -181,6 +175,7 @@ body {
         position: relative;
         width: 10em;
         left: 40%;
+        margin: 0;
     }
     
      .arrow-2 {
