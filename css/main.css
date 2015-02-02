@@ -13,32 +13,6 @@ html {
     text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) {
-    
-    .arrow-1 {
-        display: block;
-        position: relative;
-        width: 10em;
-        top: 40%;
-        left: 40%;
-    }
-    
-    .cat-face {
-        display: block;
-        position: relative;
-        width: 10em;
-        left: 0%;
-    }
-    
-     .arrow-2 {
-        display: block;
-        position: relative;
-        width: 10em;
-        top: 40%;
-        left: 40%;
-    }
-}
-
 @media only screen and (min-width: 90em) {
     
     html {
@@ -54,11 +28,16 @@ body {
     background-color: #3a3a3a;
 }
 
+.cat-part {
+    position: relative;
+}
+
 .arrow-1 {
     position: absolute;
     top: 45%;
     left: 10%;
     width: 5em;
+    margin: none;
    -webkit-animation: arrow-1-rotate 3s ease-in-out infinite alternate;
     animation: arrow-1-rotate 3s ease-in-out infinite alternate;
 }
@@ -77,11 +56,18 @@ body {
 
 .cat-face {
     position: absolute;
-    top: 40%;
-    left: 40%;
-    width: 30em;
+    top: -40%;
+    left: 0;
+    width: 100%;
+    margin: none;
+    transition: all 1000ms linear;
     -webkit-animation: cat-face-rotate 10s ease-in-out infinite alternate;
     animation: cat-face-rotate 10s ease-in-out infinite alternate;
+}
+
+.cat-face:hover {
+    background-color: #fff;
+    color: #3a3a3a;
 }
 
 @-webkit-keyframes cat-face-rotate {
@@ -97,8 +83,9 @@ body {
 .arrow-2 {
     position: absolute;
     top: 45%;
-    left: 75%;
-    width: 10em;
+    right: 10%;
+    width: 5em;
+    margin: none;
     -webkit-animation: arrow-2-rotate 3s ease-in-out infinite alternate;
     animation: arrow-2-rotate 3s ease-in-out infinite alternate;
 }
@@ -132,58 +119,42 @@ body {
     padding-right: 1em;
 }
 
+
 @media only screen and (min-width: 25em) {
     
     .arrow-1 {
-        display: block;
-        position: relative;
         width: 10em;
-        top: 40%;
         left: 40%;
     }
     
     .cat-face {
-        display: block;
-        position: relative;
-        width: 10em;
-        left: -55%;
-        margin: 0;
+        width: 50%;
+        left: 25%;
+        top: 4%;
     }
     
      .arrow-2 {
-        display: block;
-        position: relative;
         width: 10em;
-        top: 40%;
-        left: 40%;
+        right: 40%;
     }
 }
-
 
 @media only screen and (min-width: 38em) {
     
     .arrow-1 {
-        display: block;
-        position: relative;
         width: 10em;
-        top: 40%;
         left: 40%;
     }
     
     .cat-face {
-        display: block;
-        position: relative;
-        width: 10em;
-        left: 40%;
-        margin: 0;
+        width: 50%;
+        left: 25%;
+        top: 4%;
     }
     
      .arrow-2 {
-        display: block;
-        position: relative;
         width: 10em;
-        top: 40%;
-        left: 40%;
+        right: 40%;
     }
     
     .title {
@@ -192,3 +163,21 @@ body {
         text-align: center;
     }
 } 
+
+@media only screen and (min-width: 60em) {
+    
+    .arrow-1 {
+        width: 10em;
+        left: 40%;
+    }
+    
+    .cat-face {
+        width: 10em;
+        top: 4%;
+    }
+    
+     .arrow-2 {
+        width: 10em;
+        right: 40%;
+    }
+}
