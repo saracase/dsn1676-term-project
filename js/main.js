@@ -1,5 +1,6 @@
 var $btnShow = $('.btn-show-hide');
-var $btnMove = $('.btn-move');
+var $btnMoveBefore = $('.btn-move-before');
+var $btnMoveAfter = $('.btn-move-after');
 var $btnCollapse = $('.btn-collapse-expand');
 var $family = $('.family');
 var $panel = $('.panel');
@@ -14,10 +15,10 @@ $btnShow.on('click', function () {
     $family.toggleClass('js-family-hide');
 });
 
-$btnMove.on('click', function () {
+$btnMoveBefore.on('click', function () {
     $before.toggleClass('js-before-move');
 });
 
-$btnMove.on('click', function () {
+$btnMoveAfter.on('click', function () {
     $after.toggleClass('js-after-move');
 });

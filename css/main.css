@@ -211,18 +211,13 @@ button {
   color: #9d9e9e;
   text-align: center;
   
-  max-height: 30em;
+  max-height: 15em;
   overflow: hidden;
   transition: all 250ms ease-out;
 }
 
 .js-panel-collapse {
     max-height: 0;
-}
-
-.panel h2 {
-  margin: 0;
-  padding: 3rem 0;
 }
 
 .before {
