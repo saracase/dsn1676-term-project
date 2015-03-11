@@ -3,14 +3,14 @@ var $btnMoveBefore = $('.btn-move-before');
 var $btnMoveAfter = $('.btn-move-after');
 var $btnCollapse = $('.btn-collapse-expand');
 var $family = $('.family');
-var $panel = $('.panel');
+var $about = $('.about');
 var $before = $('.before');
 var $after = $('.after');
 var $tabs = $('.tabs');
 var $panels = $('.panel');
 
 $btnCollapse.on('click', function () {
-    $panel.toggleClass('js-panel-collapse');
+    $about.toggleClass('js-about-collapse');
 });
 
 $btnShow.on('click', function () {

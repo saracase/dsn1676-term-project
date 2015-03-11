@@ -198,7 +198,8 @@ div {
 }
 
 .js-current {
-  background-color: red;
+  background-color: #9d9e9e;
+    color: #e2e2e2;
 }
 
 button {
@@ -213,7 +214,7 @@ button {
     border-radius: 0.5em;
 }
 
-.panel {
+.about {
   width: 250px;
   top: 50%;
 
@@ -228,7 +229,7 @@ button {
   transition: all 250ms ease-out;
 }
 
-.js-panel-collapse {
+.js-about-collapse {
     max-height: 0;
 }
 
