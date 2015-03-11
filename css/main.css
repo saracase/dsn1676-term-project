@@ -256,7 +256,8 @@ button {
 }
 
 .family {
-  height: 12em;
+  height: 10em;
+  right: -13em;
   top: calc(50% - 50px);
   width: 10em;
 
@@ -266,6 +267,7 @@ button {
 
 .js-family-hide {
     opacity: 100;
+    right: 2em;
 }
 
 @media only screen and (min-width: 25em) {
