@@ -28,6 +28,58 @@ body {
     background-color: #3a3a3a;
 }
 
+.masthead {
+  background-color: #edecec;
+  overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.nav {
+    margin: 0;
+    padding: 1em 0;
+    list-style-type: none;
+    background-color: #edecec;
+}
+
+.nav li {
+    border-top: 0;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #000;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:visited {
+  background-color: #e94647;
+
+  color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
 .cat-part {
     position: relative;
 }
@@ -119,6 +171,102 @@ body {
     padding-right: 1em;
 }
 
+section {
+  padding: 4em 1em;
+  position: relative;
+
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+
+section:nth-child(5) {
+  border: 0;
+}
+
+div {
+  position: absolute;
+  right: 1em;
+  top: 0;
+}
+
+button {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    border: none;
+    background: #e2e2e2;
+    color: #9d9e9e;
+    padding: 0.3em;
+    cursor: pointer;
+    margin: 1em;
+    border-radius: 0.5em;
+}
+
+.panel {
+  width: 250px;
+  top: 50%;
+
+  background-color: #e2e2e2;
+  transform: translateY(-50%);
+
+  color: #9d9e9e;
+  text-align: center;
+  
+  max-height: 30em;
+  overflow: hidden;
+  transition: all 250ms ease-out;
+}
+
+.js-panel-collapse {
+    max-height: 0;
+}
+
+.panel h2 {
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.before {
+  height: 10em;
+  right: 5em;
+  top: calc(40% - 40px);
+  width: 10em;
+
+  position: absolute;
+  right: -13em;
+  transition: all 250ms ease-out;
+}
+
+.js-before-move {
+    right: 2em;
+}
+
+.after {
+  height: 12em;
+  right: 5em;
+  top: calc(50% - 40px);
+  width: 10em;
+
+  position: absolute;
+  right: -13em;
+  transition: all 250ms ease-out;
+}
+
+.js-after-move {
+    right: 2em;
+}
+
+.family {
+  height: 12em;
+  top: calc(50% - 50px);
+  width: 10em;
+
+  opacity: 0;
+  transition: all 250ms ease-out;
+}
+
+.js-family-hide {
+    opacity: 100;
+}
 
 @media only screen and (min-width: 25em) {
     

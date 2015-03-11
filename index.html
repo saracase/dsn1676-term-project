@@ -10,12 +10,19 @@
     <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
-<div class="grid">
-<div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-2-3">
+    
+<header role="banner" class="grid masthead pad-t-1-2 pad-b-1-2">
+  <nav id="navigation" role="navigation" class="unit gutter-1-2unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-2-3">
+  </nav>
+</header>
+  
+<main id="main" role="main">
+ <div class="grid">
+ <div class="banner">
+ <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-2-3">
     <h1 class="title">The Purrfect Website</h1>
-</div>
-</div>
-<div class="grid">
+ </div>
+ <div class="grid">
     <div class="cat-part unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3">
         <img class="arrow-1 pad-top pad-bottom" src="images/arrow.svg">
     </div>
@@ -25,6 +32,37 @@
     <div class="cat-part unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3">
         <img class="arrow-2 pad-top pad-bottom" src="images/arrow.svg">
     </div>
-</div>
+ </div>
+ </div>
+ </div>
+    
+  <section>
+    <button class="btn-expand">About</button>
+    <div class="panel">
+        <p>Grey is a 5month old kitten. She has 3 other siblings. Her mum is named Kazooie and she and Grey live at home. They sometimes venture outside, but not now since it's too cold for their lil paws. Grey is very active and super fluffy.</p>
+    </div>
+  </section>
+    
+  <section>
+    <button class="btn-move">Before</button>
+    <div class="before"></div>
+    <div><img class="before" src="images/baby-grey.png"></div>
+  </section>
+    
+  <section>
+    <button class="btn-move">After</button>
+    <div class="after"></div>
+    <div><img class="after" src="images/grey-2.PNG"></div>
+  </section>
+    
+ <section>
+    <button class="btn-show-hide">Family</button>
+     <div><img class="after" src="images/family.png"></div>
+    <div class="family"></div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</main>
 </body>
 </html>
