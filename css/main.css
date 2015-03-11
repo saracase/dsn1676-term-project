@@ -189,6 +189,18 @@ div {
   top: 0;
 }
 
+[hidden] {
+  display: none;
+}
+
+.tabs li {
+  display: inline-block;
+}
+
+.js-current {
+  background-color: red;
+}
+
 button {
     font-size: 1.3em;
     font-family: sans-serif;

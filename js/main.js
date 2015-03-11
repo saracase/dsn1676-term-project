@@ -6,6 +6,8 @@ var $family = $('.family');
 var $panel = $('.panel');
 var $before = $('.before');
 var $after = $('.after');
+var $tabs = $('.tabs');
+var $panels = $('.panel');
 
 $btnCollapse.on('click', function () {
     $panel.toggleClass('js-panel-collapse');
@@ -21,4 +23,15 @@ $btnMoveBefore.on('click', function () {
 
 $btnMoveAfter.on('click', function () {
     $after.toggleClass('js-after-move');
+});
+
+$tabs.on('click', 'a', function (e) {
+  e.preventDefault();
+  var id = $(this).attr('href');
+
+$panels.filter(':not([hidden])').attr('hidden', true);
+  $(id).removeAttr('hidden');
+
+$tabs.find('.js-current').removeClass('js-current');
+  $(this).addClass('js-current');
 });
