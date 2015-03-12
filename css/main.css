@@ -183,11 +183,12 @@ section:nth-child(5) {
   border: 0;
 }
 
+li a {
+    color: #fff;
+}
+    
 [hidden] {
   display: none;
-}
-tab-panels {
-    
 }
 
 .tabs li {
@@ -223,14 +224,14 @@ button {
 
   color: #9d9e9e;
   text-align: center;
+  max-height: 0;
   
-  max-height: 15em;
   overflow: hidden;
   transition: all 250ms ease-out;
 }
 
 .js-about-collapse {
-    max-height: 0;
+    max-height: 15em;
 }
 
 .before {
