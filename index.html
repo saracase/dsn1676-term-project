@@ -18,7 +18,6 @@
   
 <main id="main" role="main">
  <div class="grid">
- <div class="banner">
  <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-2-3">
     <h1 class="title">The Purrfect Website</h1>
  </div>
@@ -34,63 +33,41 @@
     </div>
  </div>
  </div>
- </div>
     
   <ul class="tabs">
     <li><a class="js-current" href="#tab-1">About</a></li>
     <li><a href="#tab-2">Before</a></li>
     <li><a href="#tab-3">After</a></li>
-    <li><a href="#tab-3">Family</a></li>
+    <li><a href="#tab-4">Family</a></li>
   </ul>
 
   <div class="tab-panels">
     <div class="panel" id="tab-1">
     <button class="btn-collapse-expand">About</button>
-    <div class="about">
+    <div class="about about-info">
         <p>Grey is a 5month old kitten. She has 3 other siblings. Her mum is named Kazooie and she and Grey live at home. They sometimes venture outside, but not now since it's too cold for their lil paws. Grey is very active and super fluffy.</p>
     </div>
     </div>
 
     <div class="panel" id="tab-2" hidden>
-      <h2>Before</h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-    </div>
-
-    <div class="panel" id="tab-3" hidden>
-      <h2>After</h2>
-      <ul>
-        <li>List Item 1</li>
-        <li>List Item 2</li>
-        <li>List Item 3</li>
-        <li>List Item 4</li>
-      </ul>
-    </div>
-  </div>
-    
-  <section>
-    <button class="btn-collapse-expand">About</button>
-    <div class="about">
-        <p>Grey is a 5month old kitten. She has 3 other siblings. Her mum is named Kazooie and she and Grey live at home. They sometimes venture outside, but not now since it's too cold for their lil paws. Grey is very active and super fluffy.</p>
-    </div>
-  </section>
-    
-  <section>
     <button class="btn-move-before">Before</button>
     <div class="before"></div>
     <div><img class="before" src="images/baby-grey.png"></div>
-  </section>
-    
-  <section>
+    </div>
+
+    <div class="panel" id="tab-3" hidden>
     <button class="btn-move-after">After</button>
     <div class="after"></div>
     <div><img class="after" src="images/grey-2.PNG"></div>
-  </section>
+    </div>
+  </div>
     
- <section>
-    <button class="btn-show-hide">Family</button>
+    <div class="panel" id="tab-4" hidden>
+     <button class="btn-show-hide">Family</button>
      <div><img class="family" src="images/family.png"></div>
     <div class="family"></div>
-  </section>
+    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/main.js"></script>

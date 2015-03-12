@@ -183,14 +183,11 @@ section:nth-child(5) {
   border: 0;
 }
 
-div {
-  position: absolute;
-  right: 1em;
-  top: 0;
-}
-
 [hidden] {
   display: none;
+}
+tab-panels {
+    
 }
 
 .tabs li {
@@ -214,10 +211,13 @@ button {
     border-radius: 0.5em;
 }
 
-.about {
-  width: 250px;
-  top: 50%;
+.about-info {
+  text-align: center;
+  left: 50%;
+  position: absolute;
+}
 
+.about {
   background-color: #e2e2e2;
   transform: translateY(-50%);
 
@@ -236,7 +236,7 @@ button {
 .before {
   height: 10em;
   right: 5em;
-  top: calc(40% - 40px);
+  top: calc(75% - 75px);
   width: 10em;
 
   position: absolute;
@@ -249,9 +249,9 @@ button {
 }
 
 .after {
-  height: 12em;
+  height: 13.5em;
   right: 5em;
-  top: calc(50% - 40px);
+  top: calc(75% - 75px);
   width: 10em;
 
   position: absolute;
@@ -265,9 +265,10 @@ button {
 
 .family {
   height: 10em;
-  right: -13em;
-  top: calc(50% - 50px);
+  top: calc(75% - 75px);
   width: 10em;
+  left: 72%;
+  position: absolute;
 
   opacity: 0;
   transition: all 250ms ease-out;
