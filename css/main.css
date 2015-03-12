@@ -200,6 +200,14 @@ li a {
     color: #e2e2e2;
 }
 
+.panel {
+  display: none;
+}
+
+.js-panel-open {
+  display: block;
+}
+
 button {
     font-size: 1.3em;
     font-family: sans-serif;

@@ -7,7 +7,9 @@ var $about = $('.about');
 var $before = $('.before');
 var $after = $('.after');
 var $tabs = $('.tabs');
-var $panels = $('.panel');
+var $panels = $('.panels');
+var $btn = $('.btn');
+var $panel = $('.panel');
 
 $btnCollapse.on('click', function () {
     $about.toggleClass('js-about-collapse');
@@ -34,4 +36,8 @@ $panels.filter(':not([hidden])').attr('hidden', true);
 
 $tabs.find('.js-current').removeClass('js-current');
   $(this).addClass('js-current');
+});
+
+$btn.on('click', function () {
+  $panel.toggleClass('js-panel-open');
 });
