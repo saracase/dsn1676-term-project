@@ -184,6 +184,10 @@ section:nth-child(5) {
   border: 0;
 }
 
+.tab-panels {
+    position: relative;
+}
+
 li a {
     color: #fff;
 }
