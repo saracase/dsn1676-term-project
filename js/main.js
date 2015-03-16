@@ -10,6 +10,7 @@ var $tabs = $('.tabs');
 var $panels = $('.panels');
 var $btn = $('.btn');
 var $panel = $('.panel');
+var $panelNav = $('.panel');
 
 $btnCollapse.on('click', function () {
     $about.toggleClass('js-about-collapse');

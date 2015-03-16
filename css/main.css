@@ -184,10 +184,6 @@ section:nth-child(5) {
   border: 0;
 }
 
-.tabs {
-    color: #fff;
-}
-
 li a {
     color: #fff;
     position: relative;
@@ -258,6 +254,7 @@ button {
   transform: translateY(-50%);
   color: #9d9e9e;
   text-align: center;
+  position: fixed;
   max-height: 0;
   top: calc(95% - 95px);
   overflow: hidden;
@@ -274,7 +271,7 @@ button {
   top: calc(95% - 95px);
   width: 10em;
 
-  position: absolute;
+  position: fixed;
   right: -13em;
   transition: all 250ms ease-out;
 }
@@ -285,11 +282,10 @@ button {
 
 .after {
   height: 13.5em;
-  right: 5em;
   top: calc(95% - 95px);
   width: 10em;
 
-  position: absolute;
+  position: fixed;
   right: -13em;
   transition: all 250ms ease-out;
 }
@@ -302,8 +298,8 @@ button {
   height: 10em;
   top: calc(95% - 95px);
   width: 10em;
-  left: 72%;
-  position: absolute;
+  left: 87%;
+  position: fixed;
 
   opacity: 0;
   transition: all 250ms ease-out;
@@ -367,18 +363,6 @@ button {
         display: block;
         position: relative;
         text-align: center;
-    }
-    
-    .before {
-        bottom: 95%;
-    }
-    
-    .after {
-        top: calc(95% - 95px);
-    }
-    
-    .family {
-        top: calc(95% - 95px);
     }
 } 
 
