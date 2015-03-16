@@ -10,7 +10,8 @@ var $tabs = $('.tabs');
 var $panels = $('.panels');
 var $btn = $('.btn');
 var $panel = $('.panel');
-var $panelNav = $('.panel');
+var $toggle = $('.toggle');
+var $navPanel = $('.nav-panel');
 
 $btnCollapse.on('click', function () {
     $about.toggleClass('js-about-collapse');
@@ -39,6 +40,6 @@ $tabs.find('.js-current').removeClass('js-current');
   $(this).addClass('js-current');
 });
 
-$btn.on('click', function () {
-  $panel.toggleClass('js-panel-open');
+$toggle.on('click', function () {
+  $navPanel.toggleClass('js-panel-open');
 });

@@ -85,6 +85,21 @@ input + label {
     display: inline-block;
 }
 
+.toggle {
+    width: 5em;
+    padding: 1em;
+}
+
+.nav-panel {
+    display: none;
+}
+
+.nav-panel a {
+    text-decoration: none;
+    padding: .5em;
+    color: #3a3a3a;
+}
+
 .cat-part {
     position: relative;
 }
@@ -302,8 +317,8 @@ button {
 
 .family {
   top: calc(45% - 55px);
-  width: 10em;
-  left: 90%;
+  width: 15em;
+  left: 30%;
   position: absolute;
 
   opacity: 0;
