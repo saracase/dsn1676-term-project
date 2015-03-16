@@ -11,13 +11,10 @@
 </head>
 <body>
     
-<header class="grid masthead pad-t-1-2 pad-b-1-2 unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-2-3">
+<header class="grid masthead pad-t-1-2 pad-b-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
   <button class="btn">Toggle</button>
   <div class="panel">
-      <h2>About</h2>
-      <h2>Before</h2>
-      <h2>After</h2>
-      <h2>Family</h2>
+      <h2><a href="#kitten-info">Kitten Info</a></h2>
   </div>
 </header>
   
@@ -37,6 +34,8 @@
     </div>
  </div>
     
+<div class="divider">
+    <h2 id="kitten-info" role="kitten-info">Kitten Info</h2>
   <ul class="tabs">
     <li><a class="js-current" href="#tab-1">About</a></li>
     <li><a href="#tab-2">Before</a></li>
@@ -55,21 +54,19 @@
     <div class="panels" id="tab-2" hidden>
         <button class="btn-move-before">Before</button>
         <img class="before" src="images/baby-grey.png">
-        <div class="before"></div>
     </div>
 
     <div class="panels" id="tab-3" hidden>
         <button class="btn-move-after">After</button>
         <img class="after" src="images/grey-2.PNG">
-        <div class="after"></div>
     </div>
     
     <div class="panels" id="tab-4" hidden>
         <button class="btn-show-hide">Family</button>
         <img class="family" src="images/family.png">
-        <div class="family"></div>
     </div>
   </div>
+</div>    
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/main.js"></script>
