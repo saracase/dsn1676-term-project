@@ -17,6 +17,8 @@ $btnCollapse.on('click', function () {
     $about.toggleClass('js-about-collapse');
 });
 
+$('.nav-panel').localScroll();
+
 $btnShow.on('click', function () {
     $family.toggleClass('js-family-hide');
 });
