@@ -330,6 +330,24 @@ button {
     right: 2em;
 }
 
+.sleeping {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+}
+
+.sleeping-info {
+    position: absolute;
+    background-color: #9d9e9e;
+    color: #e2e2e2;
+    text-align: center;
+    top: calc(55% - 55px);
+    margin: 2em;
+    overflow: hidden;
+    left: 35em;
+}
+
 @media only screen and (min-width: 25em) {
     
     .arrow-1 {
