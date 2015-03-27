@@ -348,6 +348,24 @@ button {
     left: 35em;
 }
 
+.roaming {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+}
+
+.roaming-info {
+    position: absolute;
+    background-color: #9d9e9e;
+    color: #e2e2e2;
+    text-align: center;
+    top: calc(55% - 55px);
+    padding: .5em;
+    overflow: hidden;
+    left: 38em;
+}
+
 @media only screen and (min-width: 25em) {
     
     .arrow-1 {
