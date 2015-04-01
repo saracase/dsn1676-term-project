@@ -368,23 +368,19 @@ button {
 
 .cat-on-yarn {
     width: 550px;
-}
-
-#cat #yarn {
     transition: all 200ms linear;
+    -webkit-animation: cat-on-yarn 2s ease-in-out infinite alternate;
+    animation: cat-on-yarn 2s infinite alternate;
 }
 
-#cat #yarn {
-    animation: rotate 0.001s ease alternate infinite;
+@-webkit-keyframes cat-on-yarn {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(30deg); }   
 }
 
-@keyframes rotate {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(20px);
-    }
+@keyframes cat-on-yarn {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(30deg); }   
 }
 
 @media only screen and (min-width: 25em) {
