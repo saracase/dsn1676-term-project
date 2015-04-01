@@ -366,6 +366,24 @@ button {
     left: 38em;
 }
 
+.cat-on-yarn {
+    width: 100%;
+    background-color: #edecec;
+    position: relative;
+    transition: all 1000ms linear;
+    -webkit-animation: cat-face-rotate 10s ease-in-out infinite alternate;
+    animation: cat-face-rotate 10s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes cat-on-yarn-rotate {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }   
+}
+
+@keyframes cat-on-yarn-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); } 
+
 @media only screen and (min-width: 25em) {
     
     .arrow-1 {
