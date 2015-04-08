@@ -368,6 +368,7 @@ button {
 
 .cat-on-yarn {
     width: 550px;
+    opacity: 0;
     transition: all 200ms linear;
     -webkit-animation: cat-on-yarn 2s ease-in-out infinite alternate;
     animation: cat-on-yarn 2s infinite alternate;
@@ -381,6 +382,62 @@ button {
 @keyframes cat-on-yarn {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(30deg); }   
+}
+
+.st0 {
+    fill: #72AEDE;
+    stroke: #FFFFFF;
+    stroke-width: 0.1551;
+    stroke-miterlimit: 10;
+}
+
+.st1 {
+    fill: none;
+    stroke: #3A51A2;
+    stroke-width: 0.3101;
+    stroke-miterlimit: 10;
+}
+
+.st2 {
+    fill: #3A3A3A;
+}
+
+.st3 {
+    fill: #3A3A3A;
+    stroke: #EFEFED;
+    stroke-miterlimit: 10;
+}
+
+.st4 {
+    fill: #F4E08E;
+    stroke: #FFFFFF;
+    stroke-width: 0.1551;
+    stroke-miterlimit: 10;
+}
+
+.st5 {
+    fill: none;
+    stroke: #F9F2ED;
+    stroke-miterlimit: 10;
+}
+
+.st6 {
+    fill: #2B2B2B;
+}
+
+.st7 {
+    fill: #FFCCCC;
+}
+
+.st8 {
+    fill: none;
+    stroke: #2B2B2B;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+.js-active {
+    opacity: 1;
 }
 
 @media only screen and (min-width: 25em) {

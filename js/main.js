@@ -12,6 +12,7 @@ var $btn = $('.btn');
 var $panel = $('.panel');
 var $toggle = $('.toggle');
 var $navPanel = $('.nav-panel');
+var $catOnYarn = $('.cat-on-yarn');
 
 $btnCollapse.on('click', function () {
     $about.toggleClass('js-about-collapse');
@@ -45,3 +46,7 @@ $tabs.find('.js-current').removeClass('js-current');
 $toggle.on('click', function () {
   $navPanel.toggleClass('js-panel-open');
 });
+
+$catOnYarn.waypoint(function () {
+    $catOnYarn.addClass ('js-active');
+}, { offset: '60%' }  );
