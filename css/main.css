@@ -440,6 +440,13 @@ button {
     opacity: 1;
 }
 
+.top {
+    color: #3a3a3a;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+    
+
 @media only screen and (min-width: 25em) {
     
     .arrow-1 {
